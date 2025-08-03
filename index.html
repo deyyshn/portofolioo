@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Dee</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS Animate on Scroll -->
+<link rel="stylesheet" href="style.css" />
+<!-- AOS Animate on Scroll -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <!-- LOGIN PAGE -->
+<div id="login-screen" class="login-container">
+  <h2>Selamat Datang!</h2>
+  <p>Masukkan nama kamu dulu ya</p>
+  <input type="text" id="username" placeholder="Nama kamu...">
+  <button onclick="startWebsite()" class="btn">Next</button>
+</div>
+
+ <!-- MAIN CONTENT -->
+<div id="main-content" style="display: none;">
+  <!-- PASTE SEMUA KONTEN KAMU DI SINI -->
+</div>
+
+
+  <!-- Home -->
+  <section class="card">
+    <img src="gambarde.jpg" alt="Foto Dee" class="profile-img" />
+    <h1 class="nama">Halo, <span id="user-name-placeholder">Dee</span></h1>
+    <p class="bio"> As long as i can, why not?
+
+
+    </div> 
+    <script src="script.js"></script>
+<!-- AOS Animate on Scroll -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+  </section>
+
+  <!-- About Me -->
+  <section class="about-me">
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm Dermawati Siahaan, but you can simply call me Dee.
+I’m currently a student at Universitas Pertamina, majoring in Economics under the Faculty of Economics and Business.
+
+Beyond numbers and theories, I’m deeply passionate about the digital creative world, especially in areas like marketing, branding, content creation, and visual storytelling. Since childhood, I’ve always been fascinated by the way people communicate, connect, and respond to visuals and ideas. That curiosity has led me to explore how brands speak, how messages are crafted, and how digital platforms can shape perception.
+
+I enjoy combining strategic thinking with aesthetics, whether that’s through designing impactful visual content, understanding consumer behavior, or telling stories that resonate with the audience. I believe that creativity is not just about making things look good, but about making people feel something.
+
+Lately, I’ve been diving deeper into the intersection of design, marketing, and business — from how small local businesses (UMKM) grow their brand identities to how large corporations build emotional connections at scale.
+   <section class="quote-section" data-aos="zoom-in">
+  <h2>Quote of the Day</h2>
+  <p id="quote" class="quote-text"></p>
+</section>
+
+</p>
+  </section>
+
+  <!-- Skills -->
+<section class="skills">
+  <h2>Skills</h2>
+  <div class="skill-list">
+    <div class="skill-card" onclick="showBubble('Digital Marketing')">📈 Digital Marketing</div>
+    <div class="skill-card" onclick="showBubble('Canva & Desain Visual')">🎨 Canva & Desain Visual</div>
+    <div class="skill-card" onclick="showBubble('Public Speaking')">💬 Public Speaking</div>
+    <div class="skill-card" onclick="showBubble('Problem Solving')">🧠 Problem Solving</div>
+    <div class="skill-card" onclick="showBubble('Microsoft Office')">🖥️ Microsoft Office</div>
+  </div>
+</section>
+
+<!-- Modal Bubble -->
+<div id="bubble-modal" class="bubble-modal">
+  <div class="bubble-content">
+    <span class="close-btn" onclick="closeBubble()">×</span>
+    <h3 id="bubble-text">Skill</h3>
+  </div>
+</div>
+
+
+  <!-- Goals -->
+  <section class="goals">
+    <h2>Visi & Misi</h2>
+    <p>
+      🌈 Visi
+To turn ideas into visuals, and visuals into stories people remember.
+Aku ingin jadi jembatan antara ide yang brilian dan eksekusi yang berkesan — dengan rasa, data, dan desain.
+
+🎯 Misi
+✨ Bikin konten yang bukan cuma estetik, tapi ngena
+
+📊 Ngerancang strategi yang bukan cuma ramai, tapi relevan
+
+🧠 Gabungin data, intuisi, dan cerita jadi satu suara
+
+🤲 Ngebantu brand kecil jadi percaya diri di ruang digital
+
+🧭 Nggak berhenti belajar dan eksplor hal baru yang bisa jadi peluang
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact">
+    <h2> Contact me! </h2>
+    <p>Kalau kamu ingin kerja bareng aku, ngobrol soal ide-ide kreatif, atau bahkan sekadar networking, kamu bisa hubungi aku lewat tombol di bawah ini!</p>
+    <div class="sosmed">
+      <a href="https://instagram.com/deyyshn" target="_blank" class="btn ig">Instagram</a>
+      <a href="https://wa.me/6282285592199" target="_blank" class="btn wa">WhatsApp</a>
+            <a href="https://deaasiahaan@gmail.com" target="_blank" class="btn wa">Gmail</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Dee's Universe ✨</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<section class="music">
+  <button onclick="playMusic()" class="btn">🎵 Play Music</button>
+</section>
+<audio id="bgm" src="tiktk.mp3"></audio>
